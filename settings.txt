@@ -1,0 +1,23 @@
+
+; Simulation settings
+gravity 0.981000
+fixedDeltaTime 0.166667
+trajectoryAlphaPower 2.500000
+
+; Requires simulation reset for these
+pendulumsJoined 2
+joinedPendulumsCount 1000
+trajectoryPoints 100
+
+; Pendulum config (also needs reset)
+pendulumLength 150.000000
+pendulumMass 20.000000
+
+; Pendulum color settings
+pendulumColorSaturation 0.500000
+pendulumColorValue 1.000000
+
+; Reset when pendulums diverged (average distance) more than threshold
+resetThreshold 50.000000
+resetSamples 100
+		
